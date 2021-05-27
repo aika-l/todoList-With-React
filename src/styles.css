@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  width: 300px;
+}
+.todo {
+  color: gray;
+}
+.done {
+  text-decoration: line-through;
+}
+li {
+  list-style: none;
+  width: 360px;
+  padding: 10px;
+  border: solid 1px lightgray;
+
+  /* text-align: right; */
+}
+ul {
+  padding: 0;
+}
+span {
+  padding-right: 5px;
+  text-align: left;
+}
+.active {
+  background-color: lightslategray;
+}
+.btn {
+  background-color: lightskyblue;
+}
+.edit {
+  background-color: aquamarine;
+}
+.edit {
+  background-color: lightblue;
+}
+.delete {
+  background-color: lightsalmon;
+}
+.doneBtn {
+  background-color: lightgreen;
+}
+.button {
+  text-align: right;
+  margin: 2px;
+  float: right;
+}
+
+.clearBtn {
+  background-color: red;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 5px;
+  margin: 15px;
+}
